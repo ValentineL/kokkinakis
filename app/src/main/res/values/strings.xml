@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Κοκκινάκης</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="drawer_open">Open</string>
+	<string name="drawer_close">Close</string>
+	<string name="drawer_title">Επιλογές</string>
+	<string name="icon_image_descr">Εικονιδιο</string>
+	<string name="drawer_icon_image">Εικονιδιο πλαϊνου πανελ</string>
+	<string name="contact_textedit_msg">Περιγραφή εργασιών που απαιτούνται ή κάποιες παρατηρήσεις</string>
+	<string name="contact_button_mail">Mail</string>
+	<string name="contact_button_map">Χάρτης</string>
+	<string name="contact_logo">Λογότυπο</string>
+	
+	<string-array name="drawer_items">
+        <item>Services</item>
+        <item>Επικοινωνία</item>
+        <item>Άρθρα</item>
+        <item>Το Συνεργείο</item>
+        <item >Προφιλ</item>
+        <item >Ραντεβου</item>
+        <item>Έξοδος</item>
+    </string-array>
+	
+	<string name="action_updatedb">Ανανέωση Άρθρων</string>
+	
+	<string-array name="cities">
+        <item>Αθήνα</item>
+        <item>Θεσσαλονίκη</item>
+        <item>Πάτρα</item>
+        <item>Ηράκλειο</item>
+        <item>Λάρισα</item>
+        <item>Βόλος</item>
+        <item>Χανιά</item>
+        <item>Ιωάννινα</item>
+        <item>Χαλκίδα</item>
+        <item>Λαμία</item>
+        <item>Καβάλα</item>
+        <item>Καλαμάτα</item>
+        <item>Αγρίνιο</item>
+        <item>Σέρρες</item>
+        <item>Κατερίνη</item>
+        <item>Τρίκαλα</item>
+        <item>Ρόδος</item>
+        <item>Αλεξανδρούπολη</item>
+        <item>Ξάνθη</item>
+        <item>Κομοτηνή</item>
+        <item>Δράμα</item>
+        <item>Βέροια</item>
+        <item>Άλλη</item>
+    </string-array>
+    
+	<string name="Person_Name">Ονοματεπώνυμο</string>
+	<string name="City">Πόλη</string>
+	<string name="Address">Διεύθυνση</string>
+	<string name="Street">Οδός</string>
+	<string name="Number">Αριθμός</string>
+	<string name="Post_Code">Ταχυδρομικός κώδικας</string>
+	<string name="Telephone">Τηλέφωνο</string>
+	<string name="Email">Email</string>
+	<string name="License_Plate">Αριθμός Κυκλοφορίας αυτοκινήτου</string>
+	<string name="Mileage">Χιλιόμετρα</string>
+	<string name="Year_of_Production">Χρονολογία</string>
+	<string name="Number_of_Frame">Αριθμός Πλαισίου</string>
+	<string name="Code_of_Engine">Κωδικός Κινητήρα</string>
+	<string name="Type_of_Service">Επιλέξτε είδος εργασιών που απαιτούνται</string>
+	<string name="General_Service">Γενικό Service</string>
+	<string name="Oil_Service">Λιπαντικό Service</string>
+	<string name="Other_Service">Άλλο είδος επισκευής</string>
+	<string name="Rendezvous">Επιθυμητή ημερομηνία επίσκεψης</string>
+	<string name="Submit">Υποβολή</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget44"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/articles_title_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColorHighlight="#656565"
+        android:textSize="25sp"
+        android:textStyle="bold" >
+    </TextView>
+
+  <LinearLayout 
+    android:id="@+id/widget445"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="horizontal" >
+    
+    <ImageView
+        android:id="@+id/articles_icon_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp" >
+    </ImageView>
+    
+    <TextView
+        android:id="@+id/articles_icon_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColorHighlight="#656565"
+        android:textSize="15sp" >
+    </TextView>
+ </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/vlonginidis/AndroidStudioProjects/navigationdrawer3/app/src/main/res/layout/article_icon.xml -->

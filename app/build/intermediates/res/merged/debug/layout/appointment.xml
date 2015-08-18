@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+	<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+	    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Επιλεξτε ωρα ραντεβου:"
+        android:textSize="20sp" />
+    
+    	<TimePicker
+    	    android:id="@+id/appoint_time"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="center_horizontal" />
+    	
+    	<TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Επιλεξτε ημερομηνια ραντεβου:"
+        android:textSize="20sp" />
+        
+    	<DatePicker
+       	 	android:id="@+id/appoint_date"
+       	 	android:calendarViewShown="false"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+        	android:layout_gravity="center_horizontal"/>
+    	
+    	<TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Επιλεξτε ενα απο τα οχηματα σας:"
+        android:textSize="20sp" />
+    	
+    	<RadioGroup
+        	android:id="@+id/radiogroup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical"
+   		 >
+    	</RadioGroup>
+    	
+    	<EditText
+    	    android:id="@+id/appoint_comments"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="top|left"
+    	    android:singleLine="false"
+    	    android:lines="4"
+    	    android:inputType="textMultiLine"
+    	    android:scrollHorizontally="false" 
+    	    android:hint="Σχολια περι του ραντεβου"
+    	>   
+    	</EditText>
+    	
+    	<Button 
+        	android:id="@+id/submit_appointment" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content"
+       	 	android:text="Υποβολη"
+        	android:layout_gravity="center"
+        	android:background="?android:attr/selectableItemBackground">
+    	</Button>
+
+	</LinearLayout>
+</ScrollView>
+<!-- From: file:/C:/Users/vlonginidis/AndroidStudioProjects/navigationdrawer3/app/src/main/res/layout/appointment.xml -->

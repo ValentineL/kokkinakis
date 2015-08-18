@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:orientation="vertical" >
+    
+    <Spinner
+        android:id="@+id/spBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <EditText
+        android:id="@+id/yearofpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Year_of_Production"
+        android:inputType="number" />
+    
+    <EditText
+        android:id="@+id/km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Mileage"
+        android:inputType="number" />
+    
+    <EditText
+        android:id="@+id/licencepl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/License_Plate" />
+    
+    <EditText
+        android:id="@+id/engcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Code_of_Engine" />
+    
+    <EditText
+        android:id="@+id/framenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Number_of_Frame"/>
+    
+    <Button 
+        	android:id="@+id/dialogbuttonok" 
+        	android:layout_width="match_parent" 
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:text="OK"
+        	android:background="?android:attr/selectableItemBackground">
+    	</Button>
+
+</LinearLayout>

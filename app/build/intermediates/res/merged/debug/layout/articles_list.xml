@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent" 
+   android:layout_height="fill_parent" 
+   android:orientation="vertical">
+
+<FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_weight="1"    >
+
+    <ListView
+        android:id="@+id/articles_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top" />
+	
+	<ProgressBar android:id="@+id/spinner"
+        style="?android:progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+ 
+</FrameLayout>
+
+<LinearLayout
+	    android:layout_gravity="bottom"
+	    android:gravity="center_horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:layout_weight="0" >
+    	
+	    <Button
+            android:id="@+id/articles_backbtn"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="back" >
+        </Button>
+        
+	    <Button
+            android:id="@+id/articles_nextbtn"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="next" >
+        </Button>
+	
+	</LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/vlonginidis/AndroidStudioProjects/navigationdrawer3/app/src/main/res/layout/articles_list.xml -->

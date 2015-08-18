@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/users_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Το ονομα σας"
+        android:gravity="center"
+        android:inputType="textPersonName" >
+        
+    </EditText>
+    
+    <EditText
+        android:id="@+id/users_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Το email σας"
+        android:gravity="center"
+        android:inputType="textEmailAddress" >
+        
+    </EditText>
+    
+    <EditText
+        android:id="@+id/users_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Ο αριθμος σας"
+        android:gravity="center"
+        android:inputType="phone" >
+        
+    </EditText>
+    
+    <Button 
+        android:id="@+id/submit_info" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="Υποβολη"
+        android:layout_gravity="center"
+        android:background="?android:attr/selectableItemBackground">
+    </Button>
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+    
+    <ListView
+        android:id="@+id/users_cars"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:background="@android:color/darker_gray"/>
+    
+
+    
+    <Button 
+     android:id="@+id/add_car" 
+     android:layout_width="match_parent" 
+     android:layout_height="wrap_content"
+     android:text="Προσθηκη Οχηματος"
+     android:gravity="center"
+     android:background="?android:attr/selectableItemBackground">
+    </Button>
+    	
+    	
+    	
+   
+
+</LinearLayout>
