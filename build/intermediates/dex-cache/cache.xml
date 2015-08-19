@@ -2,11 +2,46 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jar="C:\Users\vlonginidis\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1821601ddbec5ff125653097812823388700af74">
-        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\pre-dexed\debug\classes-2bcba9756cc0930b2c32f943dba0397493c03b10.jar" />
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-ccc87d49b09908b07a6ecf0d3754a45dd53d5a6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\pre-dexed\debug\classes-30aedce523ce4b59804e0e6a042656283f608807.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\exploded-aar\com.github.manuelpeinado.fadingactionbar\fadingactionbar\3.1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1db28e119b406a5fe367b63fb1be083d5dfe298a">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\pre-dexed\debug\classes-8fc36662ba0651072f17c15d9a9df6a5ac4245ac.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\exploded-aar\com.github.manuelpeinado.fadingactionbar\fadingactionbar-abc\3.1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ada4f8fc2f9cf0fb3c66fbe36d86f5c370684ef7">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\pre-dexed\debug\classes-cf557e11495461a761ced1d0e2774d15803400c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\pre-dexed\debug\classes-597c288c909816acdaeea8ee8ad8025d2b1bf722.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\exploded-aar\com.android.support\palette-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d3aba1c188fea5ee83ebbcb458be29d1cc0ef483">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\pre-dexed\debug\classes-2437039bf7e282d8faf3e99a571d3855ac43b62d.jar" />
     </item>
 
 </items>
