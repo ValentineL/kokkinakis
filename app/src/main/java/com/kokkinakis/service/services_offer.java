@@ -99,13 +99,13 @@ public class services_offer extends Fragment{
         					else if (brand.equals("Opel")){image=opel[position];}
 //       imageView.setImageResource(image);
 
-//		ImageView headerView = new ImageView(getActivity());
-//		headerView.setImageResource(image);
-//		ViewGroup.LayoutParams headerViewParams = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT);
-//		headerView.setLayoutParams(headerViewParams);
-//		headerView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
-//		mFadingHelper.headerView(headerView);
-		//// FIXME: 8/19/2015  Add image to header view
+		ImageView headerView = new ImageView(getActivity());
+		headerView.setImageResource(image);
+		ViewGroup.LayoutParams headerViewParams = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT);
+		headerView.setLayoutParams(headerViewParams);
+		headerView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
+		mFadingHelper.headerView(headerView);
+		 //FIXME: 8/19/2015  Add image to header view
 
 		db = new DataBaseHelper(getActivity());
        
