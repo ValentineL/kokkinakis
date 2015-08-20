@@ -2,11 +2,431 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1821601ddbec5ff125653097812823388700af74">
-        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\navigationdrawer3\app\build\intermediates\pre-dexed\debug\classes-2bcba9756cc0930b2c32f943dba0397493c03b10.jar" />
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-e18ba1ae848e96e7b9e15a47d7df9e204bd7bd11.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-5a5de7d41b812b4ade2849af842347dc20d1e2fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-4e99d168bc02fc691e8b1afd541bbdc32b697366.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-67fbd617ba939de883a6fb46bd130143fea442c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-0ce1fe94e9d081843fab34486d61e6cff429ea0c.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-474fb12e51aca149857ade188aed9e8e8780fbf8.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-22ef3d3df14cf2476324e9572858c2bae02f8739.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-9e2e2318f097460a6adf5bd4cbd4a453dd55901d.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-692cdf2c39b2b310612c7f2f04ec08a1b8ce4e96.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-63395444387e42cbf76f92f24248401b08aafdf0.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-a72c1f13a865833aecc38fac03fd03a4a5ec1c97.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-63395444387e42cbf76f92f24248401b08aafdf0.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-b744784998f17e2fc66af7e317d232c4f0919996.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-a2ac9550a6a7f42d331ae69776a19257419168be.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-94ab2ba3741eeda0edbb94889eb05221fac75f53.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-b40a6f3dd37326a25cc06bb19e01502654bc18c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-1ee31c3325c7c2348e00ace84fa099b9eacf7465.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-c76f22d12d814933db7fd519c91493efc7186e47.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-a72c1f13a865833aecc38fac03fd03a4a5ec1c97.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-474fb12e51aca149857ade188aed9e8e8780fbf8.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-c6035a72e04b3bf533a6fd656f8029d498fb849b.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-a7e86c71c332bc8e79e5d97c9d774828480fc061.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-92bb8935a376207177b6a7e0ab82872cfe7bd65c.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-5beb87edd2c4d2c51e46444c1183f66c190f5f13.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-3f203ad5a93f6eb6395a8a46736e070ce47f7f38.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-a2ac9550a6a7f42d331ae69776a19257419168be.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.github.manuelpeinado.fadingactionbar\fadingactionbar-abc\3.1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="ada4f8fc2f9cf0fb3c66fbe36d86f5c370684ef7">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-db686e11c127b3bf73cc4dfddad2571c18a45f56.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\palette-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-6c97ccdc2af0607544b44cab5d98c08222ff7c73.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-92bb8935a376207177b6a7e0ab82872cfe7bd65c.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-113384d9ad19150583832195ee9bb06f4ee169c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-5beb87edd2c4d2c51e46444c1183f66c190f5f13.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-5a5de7d41b812b4ade2849af842347dc20d1e2fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-9e2e2318f097460a6adf5bd4cbd4a453dd55901d.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-0ce1fe94e9d081843fab34486d61e6cff429ea0c.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-0018f0595106e6d248ef1c23459ae9a400304177.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-0c7915381ef91964f686596ded0e1b6e6e3febf2.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-0c7915381ef91964f686596ded0e1b6e6e3febf2.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-94ab2ba3741eeda0edbb94889eb05221fac75f53.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-e18ba1ae848e96e7b9e15a47d7df9e204bd7bd11.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-6538066432d6f76292f370d5781296a8054b4594.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-22ef3d3df14cf2476324e9572858c2bae02f8739.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-6538066432d6f76292f370d5781296a8054b4594.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-e0eb5d9f6e73b0f5be4205ef64215622b027ca87.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-f1fb6ae958506d1aac3a1b145e81f4674476ac10.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-a7e86c71c332bc8e79e5d97c9d774828480fc061.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-e0eb5d9f6e73b0f5be4205ef64215622b027ca87.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-c76f22d12d814933db7fd519c91493efc7186e47.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-4e99d168bc02fc691e8b1afd541bbdc32b697366.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-67fbd617ba939de883a6fb46bd130143fea442c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-ec3fc0560b2fd491bae27867b90c2243449bfec6.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-b744784998f17e2fc66af7e317d232c4f0919996.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-b40a6f3dd37326a25cc06bb19e01502654bc18c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-3e3ae3a2fb6aeeb3d4dc63c1dde6ff05e9c641dc.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-f1fb6ae958506d1aac3a1b145e81f4674476ac10.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-3f203ad5a93f6eb6395a8a46736e070ce47f7f38.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-3e3ae3a2fb6aeeb3d4dc63c1dde6ff05e9c641dc.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-c6035a72e04b3bf533a6fd656f8029d498fb849b.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-ec3fc0560b2fd491bae27867b90c2243449bfec6.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.4.0\f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2\picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\picasso-2.4.0-ccc87d49b09908b07a6ecf0d3754a45dd53d5a6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.github.manuelpeinado.fadingactionbar\fadingactionbar\3.1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="1db28e119b406a5fe367b63fb1be083d5dfe298a">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-79f236630d39d88fb358010bd1d016f52de3e5e8.jar" />
+    </item>
+    <item
+        jar="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="C:\Users\vlonginidis\AndroidStudioProjects\kokkinakis\app\build\intermediates\pre-dexed\debug\classes-0018f0595106e6d248ef1c23459ae9a400304177.jar" />
     </item>
 
 </items>
