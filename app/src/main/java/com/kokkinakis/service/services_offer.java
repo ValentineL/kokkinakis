@@ -15,7 +15,6 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ImageView;
 
-import com.kokkinakis.service.R;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelperBase;
 import com.manuelpeinado.fadingactionbar.extras.actionbarcompat.FadingActionBarHelper;
 
@@ -54,12 +53,11 @@ public class services_offer extends Fragment{
 	
 	static Integer[] opel={R.drawable.opel_corsa,
 							 R.drawable.opel_astra};
-	private Bundle mArguments;
 	private FadingActionBarHelperBase mFadingHelper;
 
 	public services_offer(String brd,String mdl,Integer p) {
-    	brand=new String(brd);
-		model=new String(mdl);
+    	brand= brd;
+		model= mdl;
     	position=p;
 	}
 
@@ -70,26 +68,8 @@ public class services_offer extends Fragment{
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-		mArguments = getArguments();
-		int actionBarBg = mArguments != null ? mArguments.getInt(ARG_ACTION_BG_RES) : R.drawable.ab_background_light;
-
-		mFadingHelper = new FadingActionBarHelper()
-				.actionBarBackground(actionBarBg)
-				.headerLayout(R.layout.header_light)
-				.contentLayout(R.layout.services_offer)
-				.lightActionBar(actionBarBg == R.drawable.ab_background_light);
-		mFadingHelper.initActionBar(getActivity());
-
 		View root = mFadingHelper.createView(inflater);
 
-		if (mArguments != null){
-			ImageView img = (ImageView) root.findViewById(R.id.image_header);
-			img.setImageResource(mArguments.getInt(ARG_IMAGE_RES));
-		}
-
-//        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.services_offer, null);
-
-//        ImageView imageView=(ImageView) root.findViewById(R.id.offer_image);
         Integer image = null ;
         if(brand.equals("Audi")) {image=audi[position];}	
         	else if (brand.equals("Volkswagen")){image=vw[position];}
@@ -97,14 +77,9 @@ public class services_offer extends Fragment{
         			else if (brand.equals("Skoda")){image=skoda[position];}
         				else if (brand.equals("Subaru")){image=subaru[position];}
         					else if (brand.equals("Opel")){image=opel[position];}
-//       imageView.setImageResource(image);
 
-		ImageView headerView = new ImageView(getActivity());
-		headerView.setImageResource(image);
-		ViewGroup.LayoutParams headerViewParams = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT);
-		headerView.setLayoutParams(headerViewParams);
-		headerView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
-		mFadingHelper.headerView(headerView);
+        ImageView img = (ImageView) root.findViewById(R.id.image_header);
+        img.setImageResource(image);
 		 //FIXME: 8/19/2015  Add image to header view
 
 		db = new DataBaseHelper(getActivity());
@@ -141,23 +116,15 @@ public class services_offer extends Fragment{
        
         return root;
 	}
-
-	public static final String ARG_IMAGE_RES = "image_source";
-	public static final String ARG_ACTION_BG_RES = "image_action_bs_res";
-
+    
 	@Override
 	public void onAttach(Activity activity) {
 		super.onAttach(activity);
-
-		mArguments = getArguments();
-		int actionBarBg = mArguments != null ? mArguments.getInt(ARG_ACTION_BG_RES) : R.drawable.ab_background_light;
-
-		mFadingHelper = new FadingActionBarHelper()
-			.actionBarBackground(actionBarBg)
-				.headerLayout(R.layout.header_light)
-				.contentLayout(R.layout.services_offer)
-			.lightActionBar(actionBarBg == R.drawable.ab_background_light);
-		mFadingHelper.initActionBar(activity);
+        mFadingHelper = new FadingActionBarHelper()
+                .actionBarBackground(R.drawable.black)
+                .headerLayout(R.layout.header_light)
+                .contentLayout(R.layout.services_offer);
+        mFadingHelper.initActionBar(getActivity());
 	}
 
 }
