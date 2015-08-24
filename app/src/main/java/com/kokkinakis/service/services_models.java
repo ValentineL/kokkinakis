@@ -8,6 +8,7 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -93,7 +94,7 @@ public class services_models extends Fragment {
         listView.setOnItemClickListener(new OnItemClickListener()
 		{
 			public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
-			    
+
 			    final android.support.v4.app.FragmentTransaction ft = getFragmentManager().beginTransaction();
 			    ft.replace(((ViewGroup)getView().getParent()).getId(), new services_offer(brand,model_names.get(position),position), "service_offer");
 			    
@@ -102,9 +103,9 @@ public class services_models extends Fragment {
 			    ft.commit();
 			}
 		});
-        
+
         
         return root;
     }
-    
+
 }

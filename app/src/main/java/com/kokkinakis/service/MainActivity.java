@@ -11,7 +11,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -116,8 +118,15 @@ public class MainActivity extends AppCompatActivity {
 	        // Set the drawer toggle as the DrawerListener
 	        drawer.setDrawerListener(mDrawerToggle);
 
-	        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-	        getSupportActionBar().setHomeButtonEnabled(true);
+	        /*getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+	        getSupportActionBar().setHomeButtonEnabled(true);*/
+
+		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+		setSupportActionBar(toolbar);
+
+		final ActionBar ab = getSupportActionBar();
+		ab.setHomeAsUpIndicator(R.drawable.ic_menu);
+		ab.setDisplayHomeAsUpEnabled(true);
 	    }
 
 	    @Override

@@ -7,7 +7,11 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +19,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.manuelpeinado.fadingactionbar.FadingActionBarHelperBase;
 import com.manuelpeinado.fadingactionbar.extras.actionbarcompat.FadingActionBarHelper;
 
@@ -53,7 +58,7 @@ public class services_offer extends Fragment{
 	
 	static Integer[] opel={R.drawable.opel_corsa,
 							 R.drawable.opel_astra};
-	private FadingActionBarHelperBase mFadingHelper;
+	/*private FadingActionBarHelperBase mFadingHelper;*/
 
 	public services_offer(String brd,String mdl,Integer p) {
     	brand= brd;
@@ -68,7 +73,19 @@ public class services_offer extends Fragment{
 	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
-		View root = mFadingHelper.createView(inflater);
+		/*View root = mFadingHelper.createView(inflater);*/
+
+		ViewGroup root = (ViewGroup) inflater.inflate(R.layout.activity_detail, null);
+
+		final Toolbar toolbar = (Toolbar)root.findViewById(R.id.toolbar);
+		((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+		((AppCompatActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+		CollapsingToolbarLayout collapsingToolbar =
+				(CollapsingToolbarLayout)root.findViewById(R.id.collapsing_toolbar);
+
+
+		loadBackdrop();
 
         Integer image = null ;
         if(brand.equals("Audi")) {image=audi[position];}	
@@ -80,7 +97,7 @@ public class services_offer extends Fragment{
 
         ImageView img = (ImageView) root.findViewById(R.id.image_header);
         img.setImageResource(image);
-		 //FIXME: 8/19/2015  Add image to header view
+
 
 		db = new DataBaseHelper(getActivity());
        
@@ -109,15 +126,15 @@ public class services_offer extends Fragment{
        c.moveToFirst(); 
        String a=new String(c.getString(0));
        
-       WebView webview= (WebView) root.findViewById(R.id.offer_webview);
+       /*WebView webview= (WebView) root.findViewById(R.id.offer_webview);
        webview.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
        webview.getSettings().setJavaScriptEnabled(false);
-       webview.loadDataWithBaseURL(null, a, "text/html", "utf-8", null);
+       webview.loadDataWithBaseURL(null, a, "text/html", "utf-8", null);*/
        
         return root;
 	}
     
-	@Override
+	/*@Override
 	public void onAttach(Activity activity) {
 		super.onAttach(activity);
         mFadingHelper = new FadingActionBarHelper()
@@ -125,6 +142,11 @@ public class services_offer extends Fragment{
                 .headerLayout(R.layout.header_light)
                 .contentLayout(R.layout.services_offer);
         mFadingHelper.initActionBar(getActivity());
+	}*/
+
+	private void loadBackdrop() {
+		final ImageView imageView = (ImageView) findViewById(R.id.backdrop);
+		Glide.with(this).load(Cheeses.getRandomCheeseDrawable()).centerCrop().into(imageView);
 	}
 
 }
