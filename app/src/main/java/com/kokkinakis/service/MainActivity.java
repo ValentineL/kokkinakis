@@ -6,7 +6,7 @@ import android.app.FragmentManager;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
@@ -92,14 +92,17 @@ public class MainActivity extends AppCompatActivity {
 		 FragmentTransaction tx = getSupportFragmentManager().beginTransaction();
 		 tx.replace(R.id.main,Fragment.instantiate(MainActivity.this, fragments[4]));//το αρχικο fragment οταν ανοιγει η εφαρμογη(μπορει να ειναι οποιοδηποτε)
 		 tx.commit();
-		 
+
+		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+		setSupportActionBar(toolbar);
 		 //για το ανοιγμα/κλεισιμο
 		 
 		// mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 	        mDrawerToggle = new ActionBarDrawerToggle(	//απο το dev.android στο Tutorial για το navigationdrawer
 	                this,                  /* host Activity */
 	                drawer,         /* DrawerLayout object */
-	                R.drawable.ic_drawer,  /* nav drawer icon to replace 'Up' caret */
+					toolbar,
+	                  /* nav drawer icon to replace 'Up' caret */
 	                R.string.drawer_open,  /* "open drawer" description */
 	                R.string.drawer_close  /* "close drawer" description */
 	                ) {
@@ -121,8 +124,7 @@ public class MainActivity extends AppCompatActivity {
 	        /*getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 	        getSupportActionBar().setHomeButtonEnabled(true);*/
 
-		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-		setSupportActionBar(toolbar);
+
 
 		final ActionBar ab = getSupportActionBar();
 		ab.setHomeAsUpIndicator(R.drawable.ic_menu);
