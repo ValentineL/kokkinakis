@@ -5,7 +5,7 @@
     <string name="hello_world">Hello world!</string>
 	<string name="drawer_open">Open</string>
 	<string name="drawer_close">Close</string>
-	<string name="drawer_title">Επιλογές</string>
+	<!--<string name="drawer_title">Επιλογές</string>-->
 	<string name="icon_image_descr">Εικονιδιο</string>
 	<string name="drawer_icon_image">Εικονιδιο πλαϊνου πανελ</string>
 	<string name="contact_textedit_msg">Περιγραφή εργασιών που απαιτούνται ή κάποιες παρατηρήσεις</string>
