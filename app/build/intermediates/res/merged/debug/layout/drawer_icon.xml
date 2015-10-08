@@ -25,4 +25,4 @@
         android:textSize="20sp" >
     </TextView> <!-- android:minHeight="48dp" because it says so in the guidelines -->
 
-</LinearLayout><!-- From: file:/C:/Users/Valentine/StudioProjects/kokkinakis/app/src/main/res/layout/drawer_icon.xml -->
+</LinearLayout><!-- From: file:/C:/Users/valen/StudioProjects/kok/app/src/main/res/layout/drawer_icon.xml -->

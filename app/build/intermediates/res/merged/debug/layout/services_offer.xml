@@ -4,4 +4,4 @@
         android:id="@+id/offer_webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_horizontal" /><!-- From: file:/C:/Users/Valentine/StudioProjects/kokkinakis/app/src/main/res/layout/services_offer.xml -->
+        android:gravity="center_horizontal" /><!-- From: file:/C:/Users/valen/StudioProjects/kok/app/src/main/res/layout/services_offer.xml -->

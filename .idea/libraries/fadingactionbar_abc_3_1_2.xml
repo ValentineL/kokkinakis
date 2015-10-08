@@ -1,10 +1,12 @@
 <component name="libraryTable">
   <library name="fadingactionbar-abc-3.1.2">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.manuelpeinado.fadingactionbar/fadingactionbar-abc/3.1.2/res" />
       <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.manuelpeinado.fadingactionbar/fadingactionbar-abc/3.1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.manuelpeinado.fadingactionbar/fadingactionbar-abc/3.1.2/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.manuelpeinado.fadingactionbar/fadingactionbar-abc/3.1.2/bb71a187d20ff5f612cda6b190a97e586a631c0/fadingactionbar-abc-3.1.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
